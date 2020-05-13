@@ -12,5 +12,7 @@ public class TextEmp {
         System.out.println(emp1.getName() + emp1.getJobnum() + emp1.getPosition() + emp1.getSalary());
         emp1.setSalary(2500);
         System.out.println(emp1.getSalary());
+        EmpJavaBean emp2 = new EmpJavaBean();
+        System.out.println(emp2);
     }
 }
