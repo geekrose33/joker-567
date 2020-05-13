@@ -34,19 +34,22 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.TextEmp">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+  <component name="RunManager" selected="Application.APIDemo1_Example">
+    <configuration name="APIDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.APIDemo1" />
       <module name="day_05" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Student" />
+    <configuration name="APIDemo1_Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.APIDemo1_Example" />
       <module name="day_05" />
       <extension name="coverage">
         <pattern>
@@ -98,19 +101,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.TextStudent" />
-      <item itemvalue="Application.Student" />
       <item itemvalue="Application.TextJavaBean" />
       <item itemvalue="Application.TextEmp" />
+      <item itemvalue="Application.APIDemo1" />
+      <item itemvalue="Application.APIDemo1_Example" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.APIDemo1_Example" />
+        <item itemvalue="Application.APIDemo1" />
         <item itemvalue="Application.TextEmp" />
         <item itemvalue="Application.TextJavaBean" />
         <item itemvalue="Application.TextStudent" />
-        <item itemvalue="Application.Student" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589192119202</updated>
       <workItem from="1589192122685" duration="5123000" />
-      <workItem from="1589337418307" duration="4517000" />
+      <workItem from="1589337418307" duration="6634000" />
     </task>
     <servers />
   </component>
@@ -133,29 +136,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1589340706782">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1589344900944">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589340706782" />
-    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1589340706782">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589344900944" />
+    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1589344900944">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1589340706782" />
-    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1589340706782">
+    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1589344900944" />
+    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1589344900944">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1589340706782" />
-    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1589340706782">
+    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1589344900944" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1589344900944">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589340706782" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589344900944" />
     <state x="324" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1589337435453">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="324" y="204" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1589337435453" />
-    <state x="304" y="83" width="672" height="678" key="search.everywhere.popup" timestamp="1589339972063">
+    <state x="305" y="84" width="672" height="678" key="search.everywhere.popup" timestamp="1589344514203">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="304" y="83" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1589339972063" />
+    <state x="305" y="84" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1589344514203" />
   </component>
 </project>

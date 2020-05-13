@@ -19,7 +19,7 @@ public class EmpJavaBean {
         System.out.println("EmpJavaBean无参构造方法");
     }
 
-    
+
     public EmpJavaBean(String name,int jobnum,String position,int salary){
         this.jobnum = jobnum;
         this.name = name;
