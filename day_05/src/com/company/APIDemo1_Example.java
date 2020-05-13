@@ -6,6 +6,7 @@ import java.util.Scanner;
  */
 
 public class APIDemo1_Example {
+/*
     public static void main(String[] args) {
         System.out.println("请输入两个数据");
         Scanner s1 = new Scanner(System.in);
@@ -30,7 +31,24 @@ public class APIDemo1_Example {
             System.out.println("最大值为" + c);
         }
 
+        // 三目运算符
+        int temp = (a > b ? a : b);
+        int max = (temp > c? temp : c);
+        System.out.println("max" + max);
+
+    }
+*/
+
+    // 匿名对象，（没有名字的对象）指创建对象灭有返回值
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("请输入一个数");
+        int i = new Scanner(System.in).nextInt();
+        // 匿名对象 链式连接
+        System.out.println(new Scanner(System.in).nextInt());
+
 
 
     }
+
 }

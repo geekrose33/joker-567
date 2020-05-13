@@ -34,7 +34,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.APIDemo1_Example">
+  <component name="RunManager" selected="Application.Test01_Random">
     <configuration name="APIDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.APIDemo1" />
       <module name="day_05" />
@@ -61,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextEmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.TextEmp" />
+    <configuration name="APIDemo1_Example02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.APIDemo1_Example02" />
       <module name="day_05" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextJavaBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.TextJavaBean" />
+    <configuration name="APIDemo1_Example03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.APIDemo1_Example03" />
       <module name="day_05" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.TextStudent" />
+    <configuration name="Test01_Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Test01_Random" />
       <module name="day_05" />
       <extension name="coverage">
         <pattern>
@@ -101,19 +101,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TextStudent" />
-      <item itemvalue="Application.TextJavaBean" />
-      <item itemvalue="Application.TextEmp" />
       <item itemvalue="Application.APIDemo1" />
       <item itemvalue="Application.APIDemo1_Example" />
+      <item itemvalue="Application.APIDemo1_Example02" />
+      <item itemvalue="Application.APIDemo1_Example03" />
+      <item itemvalue="Application.Test01_Random" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test01_Random" />
+        <item itemvalue="Application.APIDemo1_Example03" />
+        <item itemvalue="Application.APIDemo1_Example02" />
         <item itemvalue="Application.APIDemo1_Example" />
         <item itemvalue="Application.APIDemo1" />
-        <item itemvalue="Application.TextEmp" />
-        <item itemvalue="Application.TextJavaBean" />
-        <item itemvalue="Application.TextStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589192119202</updated>
       <workItem from="1589192122685" duration="5123000" />
-      <workItem from="1589337418307" duration="6634000" />
+      <workItem from="1589337418307" duration="10006000" />
     </task>
     <servers />
   </component>
@@ -136,22 +136,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1589344900944">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1589360805585">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589344900944" />
-    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1589344900944">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589360805585" />
+    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1589360805585">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1589344900944" />
-    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1589344900944">
+    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1589360805585" />
+    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1589360805584">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1589344900944" />
-    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1589344900944">
+    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1589360805584" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1589360805585">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589344900944" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589360805585" />
     <state x="324" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1589337435453">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
