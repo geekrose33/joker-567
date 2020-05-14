@@ -34,7 +34,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.Test02_ArrayList">
+  <component name="RunManager" selected="Application.TestOwnArrayList_01">
     <configuration name="Test01_ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Test01_ArrayList" />
       <module name="day_05" />
@@ -74,19 +74,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test02_Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Test02_Random" />
-      <module name="day_05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test02_StudentArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Test02_StudentArray" />
       <module name="day_05" />
@@ -100,20 +87,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestOwnArrayList_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.TestOwnArrayList_01" />
+      <module name="day_05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Test02_Random" />
       <item itemvalue="Application.Test01_StudentArray" />
       <item itemvalue="Application.Test02_StudentArray" />
       <item itemvalue="Application.Test01_ArrayList" />
       <item itemvalue="Application.Test02_ArrayList" />
+      <item itemvalue="Application.TestOwnArrayList_01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestOwnArrayList_01" />
         <item itemvalue="Application.Test02_ArrayList" />
         <item itemvalue="Application.Test01_ArrayList" />
         <item itemvalue="Application.Test02_StudentArray" />
         <item itemvalue="Application.Test01_StudentArray" />
-        <item itemvalue="Application.Test02_Random" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +129,7 @@
       <updated>1589192119202</updated>
       <workItem from="1589192122685" duration="5123000" />
       <workItem from="1589337418307" duration="11388000" />
-      <workItem from="1589442533347" duration="9881000" />
+      <workItem from="1589442533347" duration="11116000" />
     </task>
     <servers />
   </component>
@@ -141,22 +141,22 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="424" y="265" width="431" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.760@0.0.1280.760" timestamp="1589446160226" />
-    <state width="1238" height="242" key="GridCell.Tab.0.bottom" timestamp="1589453646576">
+    <state width="1238" height="242" key="GridCell.Tab.0.bottom" timestamp="1589454849709">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="242" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589453646576" />
-    <state width="1238" height="242" key="GridCell.Tab.0.center" timestamp="1589453646576">
+    <state width="1238" height="242" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589454849709" />
+    <state width="1238" height="242" key="GridCell.Tab.0.center" timestamp="1589454849709">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="242" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1589453646576" />
-    <state width="1238" height="242" key="GridCell.Tab.0.left" timestamp="1589453646576">
+    <state width="1238" height="242" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1589454849709" />
+    <state width="1238" height="242" key="GridCell.Tab.0.left" timestamp="1589454849709">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="242" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1589453646576" />
-    <state width="1238" height="242" key="GridCell.Tab.0.right" timestamp="1589453646576">
+    <state width="1238" height="242" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1589454849709" />
+    <state width="1238" height="242" key="GridCell.Tab.0.right" timestamp="1589454849709">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="242" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589453646576" />
+    <state width="1238" height="242" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589454849709" />
     <state x="324" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1589442547188">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
