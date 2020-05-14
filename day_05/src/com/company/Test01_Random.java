@@ -12,7 +12,9 @@ public class Test01_Random {
         // Random 类勇于生成伪随机数
         Random random = new Random();
         // [0,n) 的随机整数
-        int i = random.nextInt(10);
-        System.out.println(i);
+        for (int i = 0; i < 10; i++) {
+            int j = random.nextInt(2);
+            System.out.println("第" + i + "次是： " + j);
+        }
     }
 }
