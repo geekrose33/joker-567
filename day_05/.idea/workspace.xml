@@ -129,7 +129,8 @@
       <updated>1589192119202</updated>
       <workItem from="1589192122685" duration="5123000" />
       <workItem from="1589337418307" duration="11388000" />
-      <workItem from="1589442533347" duration="11116000" />
+      <workItem from="1589442533347" duration="11535000" />
+      <workItem from="1589546638711" duration="3625000" />
     </task>
     <servers />
   </component>
@@ -157,10 +158,14 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1238" height="242" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589454849709" />
-    <state x="324" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1589442547188">
+    <state x="324" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1589546638539">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="324" y="204" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1589442547188" />
+    <state x="324" y="204" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1589546638539" />
+    <state x="6" y="0" key="new project wizard" timestamp="1589546857988">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="6" y="0" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1589546857988" />
     <state x="306" y="85" width="672" height="678" key="search.everywhere.popup" timestamp="1589442758927">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
