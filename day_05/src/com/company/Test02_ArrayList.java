@@ -23,9 +23,9 @@ public class Test02_ArrayList {
         }
         System.out.println();
         System.out.println("---------------------------");
-        System.out.println(printOddList(list));
+        System.out.println(printEvenList(list));
         System.out.println("-------------");
-        ArrayList<Integer> list1 = printOddList(list);
+        ArrayList<Integer> list1 = printEvenList(list);
         for (int i = 0; i < list1.size(); i++) {
             System.out.println(list1.get(i));
         }
@@ -33,7 +33,7 @@ public class Test02_ArrayList {
 
     }
 
-    public static ArrayList<Integer> printOddList(ArrayList<Integer> list){
+    public static ArrayList<Integer> printEvenList(ArrayList<Integer> list){
         // 创建一个小集合 存储偶数
         ArrayList<Integer> smallList = new ArrayList<>();
         // 遍历传入的list
