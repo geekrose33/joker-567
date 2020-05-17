@@ -31,17 +31,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.StringDemo02">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="day_06" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringDemo06_Exam">
     <configuration name="StringDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.StringDemo01" />
       <module name="day_06" />
@@ -68,8 +58,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.day06" />
+    <configuration name="StringDemo04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.StringDemo04" />
+      <module name="day_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringDemo05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.StringDemo05" />
+      <module name="day_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringDemo06_Exam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.StringDemo06_Exam" />
       <module name="day_06" />
       <extension name="coverage">
         <pattern>
@@ -82,16 +98,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.day06" />
       <item itemvalue="Application.StringDemo01" />
       <item itemvalue="Application.StringDemo02" />
+      <item itemvalue="Application.StringDemo04" />
+      <item itemvalue="Application.StringDemo05" />
+      <item itemvalue="Application.StringDemo06_Exam" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringDemo02" />
+        <item itemvalue="Application.StringDemo06_Exam" />
+        <item itemvalue="Application.StringDemo05" />
+        <item itemvalue="Application.StringDemo04" />
         <item itemvalue="Application.StringDemo01" />
-        <item itemvalue="Application.day06" />
+        <item itemvalue="Application.StringDemo02" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589695504851</updated>
-      <workItem from="1589695510211" duration="5074000" />
+      <workItem from="1589695510211" duration="10048000" />
     </task>
     <servers />
   </component>
@@ -113,38 +132,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1589700638704">
+    <state x="446" y="90" key="#com.intellij.ide.util.MemberChooser" timestamp="1589704672032">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589700638704" />
-    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1589700638703">
+    <state x="446" y="90" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1589704672032" />
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1589705837635">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1589700638703" />
-    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1589700638703">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589705837635" />
+    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1589705837635">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1589700638703" />
-    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1589700638704">
+    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1589705837635" />
+    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1589705837635">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589700638704" />
-    <state width="1238" height="237" key="GridCell.Tab.1.bottom" timestamp="1589699048057">
+    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1589705837635" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1589705837635">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="237" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589699048057" />
-    <state width="1238" height="237" key="GridCell.Tab.1.center" timestamp="1589699048057">
+    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589705837635" />
+    <state width="1238" height="237" key="GridCell.Tab.1.bottom" timestamp="1589704384193">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="237" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1589699048057" />
-    <state width="1238" height="237" key="GridCell.Tab.1.left" timestamp="1589699048057">
+    <state width="1238" height="237" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589704384193" />
+    <state width="1238" height="237" key="GridCell.Tab.1.center" timestamp="1589704384192">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="237" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1589699048057" />
-    <state width="1238" height="237" key="GridCell.Tab.1.right" timestamp="1589699048057">
+    <state width="1238" height="237" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1589704384192" />
+    <state width="1238" height="237" key="GridCell.Tab.1.left" timestamp="1589704384192">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="237" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1589699048057" />
+    <state width="1238" height="237" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1589704384192" />
+    <state width="1238" height="237" key="GridCell.Tab.1.right" timestamp="1589704384193">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="237" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1589704384193" />
     <state x="306" y="85" width="672" height="678" key="search.everywhere.popup" timestamp="1589700767755">
       <screen x="0" y="0" width="1280" height="760" />
     </state>

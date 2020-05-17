@@ -44,6 +44,14 @@ public class StringDemo02 {
         System.out.println(substring);
         System.out.println(s.substring(0,s.length()));
 
-
-    }
+        /*
+        * 转化功能的方法
+        *toCharArray()
+          将此字符串转换为一个新的字符数组。
+        *getBytes(String charsetName)
+          使用指定的字符集将此 String 编码为 byte 序列，并将结果存储到一个新的 byte 数组中。
+          * replace(CharSequence target, CharSequence replacement)
+          使用指定的字面值替换序列替换此字符串所有匹配字面值目标序列的子字符串。
+        * */
+}
 }
