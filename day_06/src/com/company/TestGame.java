@@ -7,8 +7,8 @@ package com.company;
 
 public class TestGame {
     public static void main(String[] args) {
-        System.out.println("main方法执行");
         Game game = new Game();
+        System.out.println("main方法执行");
 
     }
 }
