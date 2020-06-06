@@ -13,6 +13,6 @@ public class ExtendsDemoTest08 {
         Animal animal = new Animal();
         animal.eat();*/
         Cat lanCat = new Cat("蓝猫");
-
+        new Object();
     }
 }
