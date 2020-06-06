@@ -11,5 +11,6 @@ public class InterfaceDemoTest {
         animalLiveable.eat();
         // 类实现了接口 并 实现了所有抽象方法
         animalLiveable.sleep();
+
     }
 }
