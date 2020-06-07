@@ -30,6 +30,11 @@ public class Dog extends Animal implements LiveAble,Pat{
     }
 
     @Override
+    public void eat() {
+        System.out.println("狗在猛吃");
+    }
+
+    @Override
     public void method() {
         System.out.println("子类默认方法重写");
     }
