@@ -13,7 +13,8 @@ public class Test {
         Star sun= new Sun();
         sun.doAnything();
 
-
+        Universe universe = new Sun();
+        universe.doAnything();
 
         sun = new Star();
         sun.shine();
