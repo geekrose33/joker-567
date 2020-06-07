@@ -14,6 +14,8 @@ public class InterfaceTest {
 //        LiveAble.run();  // 通过接口调用
         System.out.println("----------------------------");
         animal.func();
-
+        Dog dog = new Dog();
+        dog.show();
+        dog.method();
     }
 }

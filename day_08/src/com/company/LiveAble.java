@@ -22,4 +22,12 @@ public interface LiveAble {
         this.func1();
         this.func2();
     }
+    // 多实现抽象方法重名
+    public void show();
+
+    // 多实现默认方法重名
+    public default void method(){
+        System.out.println("Livable");
+    }
+
 }
