@@ -17,5 +17,10 @@ public class InterfaceTest {
         Dog dog = new Dog();
         dog.show();
         dog.method();
+        System.out.println("--------------------");
+        C c = new C();
+        c.sameName();
+
+
     }
 }

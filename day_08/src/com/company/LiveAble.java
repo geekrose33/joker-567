@@ -30,4 +30,8 @@ public interface LiveAble {
         System.out.println("Livable");
     }
 
+    // 接口与接口的关系 接口的多继承
+    // 如果父接口中默认方法有重名的 那么子接口需要重写一次
+
+
 }
