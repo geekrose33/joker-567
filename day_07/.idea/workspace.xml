@@ -43,9 +43,9 @@
       <recent name="com.company" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterfaceDemoTest1">
-    <configuration name="ExtendsDemoTest06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ExtendsDemoTest06" />
+  <component name="RunManager" selected="Application.FinalDemo2">
+    <configuration name="FinalDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.FinalDemo1" />
       <module name="day_07" />
       <extension name="coverage">
         <pattern>
@@ -57,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendsDemoTest08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ExtendsDemoTest08" />
+    <configuration name="FinalDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.FinalDemo2" />
       <module name="day_07" />
       <extension name="coverage">
         <pattern>
@@ -110,19 +110,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ExtendsDemoTest06" />
-      <item itemvalue="Application.ExtendsDemoTest08" />
       <item itemvalue="Application.MainRedPaket" />
       <item itemvalue="Application.InterfaceDemoTest" />
       <item itemvalue="Application.InterfaceDemoTest1" />
+      <item itemvalue="Application.FinalDemo1" />
+      <item itemvalue="Application.FinalDemo2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FinalDemo2" />
+        <item itemvalue="Application.FinalDemo1" />
         <item itemvalue="Application.InterfaceDemoTest1" />
         <item itemvalue="Application.InterfaceDemoTest" />
         <item itemvalue="Application.MainRedPaket" />
-        <item itemvalue="Application.ExtendsDemoTest08" />
-        <item itemvalue="Application.ExtendsDemoTest06" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +141,7 @@
       <workItem from="1591338721258" duration="9843000" />
       <workItem from="1591437281223" duration="4847000" />
       <workItem from="1591508819801" duration="1861000" />
+      <workItem from="1591684841088" duration="1583000" />
     </task>
     <servers />
   </component>
@@ -148,26 +149,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1591453411117">
+    <state x="446" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1591685748291">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="446" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1591453411117" />
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1591454593261">
+    <state x="446" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1591685748291" />
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1591686197443">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1591454593261" />
-    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1591454593261">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1591686197443" />
+    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1591686197443">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1591454593261" />
-    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1591454593261">
+    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1591686197443" />
+    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1591686197443">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1591454593261" />
-    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1591454593261">
+    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1591686197443" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1591686197443">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1591454593261" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1591686197443" />
     <state width="1238" height="236" key="GridCell.Tab.1.bottom" timestamp="1591107205974">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
