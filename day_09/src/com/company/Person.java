@@ -56,7 +56,7 @@ public class Person {
 
 
 
-    @Override
+  /*  @Override
     public boolean equals(Object object) {
         if (this == object) return true;
         if (object == null || getClass() != object.getClass()) return false;
@@ -64,6 +64,6 @@ public class Person {
         return age == person.age &&
                 live == person.live &&
                 name.equals(person.name);
-    }
+    }*/
 
 }
