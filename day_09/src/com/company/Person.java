@@ -1,11 +1,15 @@
 package com.company;
 
+import java.util.Objects;
+
 /**
  * @author Joker_Dong
  * @date 2020-6-14 14:18
  */
 
 public class Person {
+    private String name;
+    private int age;
     private boolean live = true;
 
     // 创建内部类
@@ -26,4 +30,40 @@ public class Person {
     public void setLive(boolean live){
         this.live = live;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", live=" + live +
+                '}';
+    }
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    @Override
+    public boolean equals(Object object) {
+        if (this == object) return true;
+        if (object == null || getClass() != object.getClass()) return false;
+        Person person = (Person) object;
+        return age == person.age &&
+                live == person.live &&
+                name.equals(person.name);
+    }
+
 }

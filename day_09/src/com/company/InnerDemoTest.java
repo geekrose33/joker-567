@@ -8,7 +8,7 @@ package com.company;
 public class InnerDemoTest {
     public static void main(String[] args) {
         // 创建外部类对象
-        Person person = new Person();
+        Person person = new Person("皮皮虾",14);
 
         // 创建内部类对象
         // 格式：

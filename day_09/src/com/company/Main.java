@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -19,7 +21,10 @@ public class Main {
 
 
 */
-
+        Person person1 = new Person("皮皮虾",14);
+        Person person2 = new Person("皮皮虾",15);
+        System.out.println(person1.equals(person2));
 
     }
+
 }
