@@ -5,10 +5,10 @@ public class ASCII_Demo {
         char c = 'A';
         System.out.println(c);
         int j = 45;
-        System.out.println(c+j);
+        System.out.println(c + j);
 
         int i = 20;
-        i = i +1;
+        i = i + 1;
         System.out.println(i);
         // s+=1 只运算一次并带有强制类型转换
         // short s;

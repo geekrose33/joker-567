@@ -1,5 +1,7 @@
 package com.company;
+
 import java.util.Scanner;
+
 /**
  * @author Joker_Dong
  * @date 2020-5-13 12:30
@@ -46,7 +48,6 @@ public class APIDemo1_Example {
         int i = new Scanner(System.in).nextInt();
         // 匿名对象 链式连接
         System.out.println(new Scanner(System.in).nextInt());
-
 
 
     }

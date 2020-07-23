@@ -9,7 +9,7 @@ package com.company;
 public class ArrayDemo03 {
     public static void main(String[] args) {
         // 创建一个数组
-        int[] arr = {5,15,2000,10000,100,4000};
+        int[] arr = {5, 15, 2000, 10000, 100, 4000};
         // 求arr中最大的那个值
 
         // 定义一个变量存储数组中最大的值
@@ -21,7 +21,7 @@ public class ArrayDemo03 {
             if (arr[i] >= max)
                 max = arr[i];   // max始终记录最大值
         }
-        System.out.println("数组中最大的值是"+max);
+        System.out.println("数组中最大的值是" + max);
 
 
     }

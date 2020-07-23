@@ -5,7 +5,7 @@ package Homework2;
  * @date 2020-6-14 20:52
  */
 // 战士类
-public class Warrior implements FightAble{
+public class Warrior implements FightAble {
 
 
     @Override

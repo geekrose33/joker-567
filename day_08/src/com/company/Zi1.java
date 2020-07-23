@@ -1,6 +1,6 @@
 package com.company;
 
-public interface Zi1 extends Fu1,Fu2{
+public interface Zi1 extends Fu1, Fu2 {
 
     @Override
     default void sameName() {

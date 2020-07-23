@@ -10,7 +10,7 @@ public class Test {
         Star star = new Star();
         star.shine();
 
-        Star sun= new Sun();
+        Star sun = new Sun();
         sun.doAnything();
 
         Universe universe = new Sun();

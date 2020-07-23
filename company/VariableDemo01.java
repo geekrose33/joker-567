@@ -26,6 +26,5 @@ public class VariableDemo01 {
         // 建立variabledemo02 将以上变量改为先声明后赋值的格式
 
 
-
     }
 }

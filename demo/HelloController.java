@@ -14,9 +14,10 @@ public class HelloController {
     //@Autowired：自动导入依赖的bean，可以对类成员变量、方法及构造函数进行标注，完成自动装配的工作。与@Resource功能相似，
     // 但默认根据类型进行自动装配的，如果需要按名称进行装配，则需要配合@Qualifier。
     private LimitConfig limitConfig;
+
     @RequestMapping("/desc")
     //@RequestMapping：提供路由信息，负责URL到Controller中的具体函数的映射。
-    public String desc(){
+    public String desc() {
         return "最小金额是" + limitConfig.getMinMoney() + "最大金额是" +
                 limitConfig.getMaxMoney() + "红包描述是" + limitConfig.getDescription();
     }
@@ -49,5 +50,5 @@ public class HelloController {
 //    @RequestMapping("/description")
 //    public String description(){return "恭喜发财，大吉大利";}
 
-    }
+}
 

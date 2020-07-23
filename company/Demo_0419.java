@@ -10,7 +10,7 @@ public class Demo_0419 {
     public static void main(String[] args) {
         System.out.println("start");
         for (int i = 0; i < 10; i++) {
-            if (i == 6){
+            if (i == 6) {
 
                 break;
 

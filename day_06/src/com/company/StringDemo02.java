@@ -42,7 +42,7 @@ public class StringDemo02 {
         System.out.println(s2.equals(s));
         String substring = s.substring(0, 4);
         System.out.println(substring);
-        System.out.println(s.substring(0,s.length()));
+        System.out.println(s.substring(0, s.length()));
 
         /*
         * 转化功能的方法
@@ -53,5 +53,5 @@ public class StringDemo02 {
           * replace(CharSequence target, CharSequence replacement)
           使用指定的字面值替换序列替换此字符串所有匹配字面值目标序列的子字符串。
         * */
-}
+    }
 }

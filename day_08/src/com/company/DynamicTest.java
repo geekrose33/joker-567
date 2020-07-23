@@ -26,13 +26,16 @@ public class DynamicTest {
         // 父类类型接收子类对象
         showAnimalEat(dog);
     }
-    public static void showCatEat(Cat cat){
+
+    public static void showCatEat(Cat cat) {
         cat.eat();
     }
-    public static void showDogEat(Dog dog){
+
+    public static void showDogEat(Dog dog) {
         dog.eat();
     }
-    public static void showAnimalEat(Animal animal){
+
+    public static void showAnimalEat(Animal animal) {
         animal.eat();
     }
 }

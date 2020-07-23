@@ -45,7 +45,7 @@ public class Exam0519 {
         // String类的 substring 方法
         // 返回源字符串[beginIndex,endIndex)的子字符串
         System.out.println(str1.substring(2));
-        System.out.println(str1.substring(2,6));// substring 的 endIndex 的值取不到
+        System.out.println(str1.substring(2, 6));// substring 的 endIndex 的值取不到
 
 
     }

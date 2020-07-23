@@ -9,6 +9,6 @@ package com.company;
 public abstract class AnimalAb {
     // 定义格式
     public abstract void run();
-      // 抽象类只有方法的声明 而没有方法体-------> 没有{}
+    // 抽象类只有方法的声明 而没有方法体-------> 没有{}
 
 }

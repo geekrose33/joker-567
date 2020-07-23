@@ -5,7 +5,7 @@ public interface Liveable1 {
     // 可以重写也可以继承 但是只能通过实现类来调用
 
     // 继承默认方法
-    public default void fly(){
+    public default void fly() {
         System.out.println("天上飞");
     }
 

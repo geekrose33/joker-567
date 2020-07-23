@@ -5,7 +5,7 @@ package com.company;
  * @date 2020-6-7 15:41
  */
 
-public class Zi2 implements Fu1,Fu2 {
+public class Zi2 implements Fu1, Fu2 {
     @Override
     public void sameName() {
 

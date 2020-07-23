@@ -32,7 +32,7 @@ public class ArrayDemo02 {
 
         // 数组的空指针异常
         // 意味着arr不会保存数组的地址了，也就是不允许数组的操作了
-        int []arr3 = null;
+        int[] arr3 = null;
         //System.out.println(arr3[1]);//空指针异常java.lang.NullPointerException
         for (int i = 0; i < arr2.length; i++) {
             System.out.println(arr2[i]);

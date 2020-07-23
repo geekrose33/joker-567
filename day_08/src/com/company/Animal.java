@@ -5,7 +5,7 @@ package com.company;
  * @date 2020-6-7 14:23
  */
 
-public abstract class Animal implements LiveAble{
+public abstract class Animal implements LiveAble {
 
     @Override
     public void run1() {

@@ -14,9 +14,10 @@ public class ArrayDemo06 {
         }
 
     }
-// void 无返回值
-    public static int[]getArray(){
-        int arr[] = {1,2,3,4,5};
+
+    // void 无返回值
+    public static int[] getArray() {
+        int arr[] = {1, 2, 3, 4, 5};
         return arr;
         //返回数组地址给调用者
     }

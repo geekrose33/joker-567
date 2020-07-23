@@ -6,8 +6,8 @@ package com.company;
  * 定义老师类作为子类/继承类
  */
 
-public class Teacher extends Employee{
-    public void printName(){
+public class Teacher extends Employee {
+    public void printName() {
         System.out.println("name: " + name);
     }
 }

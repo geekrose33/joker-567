@@ -21,8 +21,8 @@ public class Main {
 
 
 */
-        Person person1 = new Person("皮皮虾",14);
-        Person person2 = new Person("皮皮虾",15);
+        Person person1 = new Person("皮皮虾", 14);
+        Person person2 = new Person("皮皮虾", 15);
         System.out.println(person1.equals(person2));
 
     }

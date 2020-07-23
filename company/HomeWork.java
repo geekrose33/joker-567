@@ -70,14 +70,10 @@ public class HomeWork {
             System.out.println("请输入范围内的数字");
         }
 */
-                
-
-
-
 
 
     }
 
 
-    }
+}
 

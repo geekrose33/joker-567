@@ -21,7 +21,7 @@ public class TestMathDemo01 {
         double ceil1 = Math.ceil(3.3);
         double ceil2 = Math.ceil(-3.3);
         double ceil3 = Math.ceil(5.1);
-        System.out.println(ceil1 + " " + ceil2 +" "+ ceil3);
+        System.out.println(ceil1 + " " + ceil2 + " " + ceil3);
 
         //round(double a)
         //          返回最接近参数的 long。

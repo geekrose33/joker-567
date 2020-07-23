@@ -34,7 +34,6 @@ public class ArrayListExam01 {
         System.out.println(examples.get(0));
 
 
-
         for (int i = 0; i < examples.size(); i++) {
 
             System.out.println(examples.get(i).getPrice() + "  " + examples.get(i).getLogo());

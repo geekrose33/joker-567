@@ -14,5 +14,4 @@ public class TestOwnArrayList_01 {
     }
 
 
-
 }

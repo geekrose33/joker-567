@@ -17,7 +17,8 @@ public class APIDemo1_Example02 {
         */
         imput(new Scanner(System.in));
     }
-    public static void imput(Scanner scanner){
+
+    public static void imput(Scanner scanner) {
         System.out.println(scanner);
     }
 }

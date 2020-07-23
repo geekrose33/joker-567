@@ -6,7 +6,7 @@ package com.company;
  */
 
 public class C extends D implements A {
-    public void sameName(){
+    public void sameName() {
         System.out.println("CCCCC");
     }
 }

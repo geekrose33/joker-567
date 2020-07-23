@@ -7,7 +7,7 @@ package HomeWork1;
 
 public class Student {
     private String name;
-    private  boolean orChu;
+    private boolean orChu;
 
     protected static void setNum() {
     }

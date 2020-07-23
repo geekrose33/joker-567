@@ -6,14 +6,14 @@ import java.util.Scanner;
 /**
  * @author Joker_Dong
  * @date 2020-5-11 18:33
- *  * 构造方法     特殊的方法
- *  * 面向对象：属性 方法（C/Python中的函数）
- *  * 当对象被创建的时候 构造方法用来初始化该对象 给对象的成员变量赋予初始值
- *  * 构造方法的格式：
- *  *         修饰符 构造方法名（参数列表）{方法体}
- *  * 写法上 1.方法名与所在类的名字相同 2.没有返回值 所以不需要指定返回类型 也不需要void
- *  * 小贴士：无论你是否定义了构造方法，所有类都有构造方法，因为java为你提供了一个无参构造方法
- *  * 一旦你自己定义了构造方法，Java自动提供的默认无参构造方法就会失效
+ * * 构造方法     特殊的方法
+ * * 面向对象：属性 方法（C/Python中的函数）
+ * * 当对象被创建的时候 构造方法用来初始化该对象 给对象的成员变量赋予初始值
+ * * 构造方法的格式：
+ * *         修饰符 构造方法名（参数列表）{方法体}
+ * * 写法上 1.方法名与所在类的名字相同 2.没有返回值 所以不需要指定返回类型 也不需要void
+ * * 小贴士：无论你是否定义了构造方法，所有类都有构造方法，因为java为你提供了一个无参构造方法
+ * * 一旦你自己定义了构造方法，Java自动提供的默认无参构造方法就会失效
  */
 
 public class Student {
@@ -27,11 +27,12 @@ public class Student {
     private int age;
 
     // 无参构造方法
-    public Student(){
+    public Student() {
         System.out.println("无参构造方法被调用了");
     }
+
     // 有参的构造方法 初始化学生类的时候就给成员变量一个初始值
-    public Student(String name,int age){
+    public Student(String name, int age) {
         this.name = name;
         this.age = age;
         System.out.println("有参构造方法被调用了 " + this.name);

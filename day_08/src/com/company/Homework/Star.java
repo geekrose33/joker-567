@@ -6,7 +6,7 @@ package com.company.Homework;
  */
 
 public class Star {
-    public void shine(){
+    public void shine() {
         System.out.println("发光");
     }
 

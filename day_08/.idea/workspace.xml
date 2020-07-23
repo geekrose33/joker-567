@@ -37,6 +37,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RunManager" selected="Application.Test (1)">
     <configuration name="DynamicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -136,6 +137,8 @@
       <workItem from="1591687632579" duration="700000" />
       <workItem from="1592012404367" duration="966000" />
       <workItem from="1592114567957" duration="762000" />
+      <workItem from="1592494969677" duration="26000" />
+      <workItem from="1595465344920" duration="2165000" />
     </task>
     <servers />
   </component>
@@ -183,22 +186,22 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1591528742219" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1591513065978">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1595466265132">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1591513065978" />
-    <state x="324" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1592114569359">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1595466265132" />
+    <state x="324" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1592494969282">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="324" y="204" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1592114569359" />
+    <state x="324" y="204" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1592494969282" />
     <state x="436" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591534264968">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="436" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.760@0.0.1280.760" timestamp="1591534264968" />
-    <state x="6" y="0" key="new project wizard" timestamp="1592114705829">
+    <state x="6" y="0" key="new project wizard" timestamp="1595465488654">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="6" y="0" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1592114705829" />
+    <state x="6" y="0" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1595465488654" />
     <state x="303" y="82" width="672" height="678" key="search.everywhere.popup" timestamp="1591514906320">
       <screen x="0" y="0" width="1280" height="760" />
     </state>

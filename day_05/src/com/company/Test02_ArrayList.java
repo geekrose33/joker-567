@@ -33,14 +33,14 @@ public class Test02_ArrayList {
 
     }
 
-    public static ArrayList<Integer> printEvenList(ArrayList<Integer> list){
+    public static ArrayList<Integer> printEvenList(ArrayList<Integer> list) {
         // 创建一个小集合 存储偶数
         ArrayList<Integer> smallList = new ArrayList<>();
         // 遍历传入的list
         for (int i = 0; i < list.size(); i++) {
             // 获取每一个元素
             Integer num = list.get(i);
-            if (num%2 == 0){
+            if (num % 2 == 0) {
                 smallList.add(num);
             }
         }

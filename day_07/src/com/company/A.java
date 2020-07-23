@@ -8,12 +8,12 @@ public interface A {// 接口名
 
     // 默认方法：使用default修饰，不可以省略
     // 功能是供子类调用或者子类重写
-    public default void method(){
+    public default void method() {
         // 执行语句
     }
 
     // 静态方法：使用static修饰 供接口调用
-    public static void method2(){
+    public static void method2() {
         // 方法体 用static修饰
     }
     // 私有方法：使用private修饰 供接口中的默认方法

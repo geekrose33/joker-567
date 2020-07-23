@@ -28,7 +28,7 @@ public class Test01_ArrayList {
     }
 
     // 自定义方法打印List
-    public static void printArrayList(ArrayList<Integer> list){
+    public static void printArrayList(ArrayList<Integer> list) {
         // 拼接左括号
 
         System.out.print(" { ");
@@ -36,9 +36,9 @@ public class Test01_ArrayList {
         for (int i = 0; i < list.size(); i++) {
             // 获取元素
             Integer num = list.get(i);
-            if (i != list.size()-1){
+            if (i != list.size() - 1) {
                 System.out.print(num + " ,");
-            }else {
+            } else {
                 System.out.print(num);
 
             }

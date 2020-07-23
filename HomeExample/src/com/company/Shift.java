@@ -13,7 +13,8 @@ public class Shift {
         System.out.println(j);
         System.out.println(getShift(5));
     }
-    public static int getShift(int num){
+
+    public static int getShift(int num) {
         int j = num << 10;
         return j;
 

@@ -26,10 +26,10 @@ public class Test02_StudentArray {
 
         // ArrayList 数据类型可以是类
         ArrayList<StudentJavaBean> s = new ArrayList<>();
-        StudentJavaBean s1 = new StudentJavaBean("刘备",42);
-        StudentJavaBean s2 = new StudentJavaBean("关羽",40);
-        StudentJavaBean s3 = new StudentJavaBean("张飞",41);
-        StudentJavaBean s4 = new StudentJavaBean("赵云",35);
+        StudentJavaBean s1 = new StudentJavaBean("刘备", 42);
+        StudentJavaBean s2 = new StudentJavaBean("关羽", 40);
+        StudentJavaBean s3 = new StudentJavaBean("张飞", 41);
+        StudentJavaBean s4 = new StudentJavaBean("赵云", 35);
 
         // 进行添加操作
         s.add(s1);

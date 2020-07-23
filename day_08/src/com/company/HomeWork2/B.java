@@ -5,8 +5,8 @@ package com.company.HomeWork2;
  * @date 2020-6-7 20:00
  */
 
-public class B implements A{
-    public static void showD(){
+public class B implements A {
+    public static void showD() {
         System.out.println("D");
     }
 

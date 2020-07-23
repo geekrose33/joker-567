@@ -19,7 +19,7 @@ public class VariableDemo03 {
 //        System.out.println(b);    该行不能使用
         //变量可以一行声明多个
 
-        int z = 10,x = 11,c = 12;
+        int z = 10, x = 11, c = 12;
         System.out.println(z);
         //python中声明变量
         //a,b,c = 10,20,30

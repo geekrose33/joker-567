@@ -19,7 +19,7 @@ public class LuckyMoneyController {
 
     //获取红包列表
     @RequestMapping("/luckymoneylist")
-    public List<LuckyMoney> list(){
+    public List<LuckyMoney> list() {
 
         return repository.findAll();
     }
@@ -27,9 +27,9 @@ public class LuckyMoneyController {
     //发红包就是创建红包得过程
     @PostMapping("/create")
     public LuckyMoney create(@RequestParam("producer") String producer, @RequestParam("money")
-                             BigDecimal money){
+            BigDecimal money) {
 
-        LuckyMoney luckyMoney=new LuckyMoney();
+        LuckyMoney luckyMoney = new LuckyMoney();
         luckyMoney.setProducer(producer);
         luckyMoney.setMoney(money);
         return repository.save(luckyMoney);

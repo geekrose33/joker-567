@@ -20,14 +20,14 @@ public abstract class GaLen {
         this.hp = hp;
     }
 
-    public void levelUp(){
+    public void levelUp() {
         System.out.println("升级了！血量UP!");
-        this.hp = hp + 200 ;
+        this.hp = hp + 200;
         System.out.println("升级了！攻击力UP!");
         this.agressivity = agressivity + 50;
     }
 
-    public int getAgressivity(){
+    public int getAgressivity() {
         return agressivity;
     }
 

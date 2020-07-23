@@ -19,11 +19,9 @@ public class StringExam_01 {
         System.out.println(str1.equalsIgnoreCase(str3));
 */
 
-        char[] data = {'a','b','c'};
+        char[] data = {'a', 'b', 'c'};
         System.out.println(data.clone() != data);
         System.out.println(data.clone());
-
-
 
 
     }

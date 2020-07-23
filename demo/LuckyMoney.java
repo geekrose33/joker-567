@@ -8,10 +8,10 @@ import java.math.BigDecimal;
 @Entity
 //表示这是一个实体类
 public class LuckyMoney {
-   @Id
-   //主键
-   @GeneratedValue
-   //自增长
+    @Id
+    //主键
+    @GeneratedValue
+    //自增长
 
     private Integer id;
 
@@ -20,6 +20,7 @@ public class LuckyMoney {
     private String producer;
     //发送方
     private String consumer;
+
     //接受方
     public LuckyMoney() {
     }

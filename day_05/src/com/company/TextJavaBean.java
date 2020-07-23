@@ -41,9 +41,9 @@ public class TextJavaBean {
         StudentJavaBean s1 = new StudentJavaBean();
         s1.setName("金豆豆");
         s1.setAge(22);
-        System.out.println(s1.getName()+"-----"+s1.getAge());
+        System.out.println(s1.getName() + "-----" + s1.getAge());
 
-        StudentJavaBean s2 = new StudentJavaBean("金豆",21);
+        StudentJavaBean s2 = new StudentJavaBean("金豆", 21);
 
     }
 

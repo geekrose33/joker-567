@@ -5,7 +5,7 @@ package HomeWork1;
  * @date 2020-6-14 20:24
  */
 
-public class Curriculum extends Teacher{
+public class Curriculum extends Teacher {
     private String name;
 
     public String getName() {
@@ -15,7 +15,8 @@ public class Curriculum extends Teacher{
     public void setName(String name) {
         this.name = name;
     }
-    public void show(Teacher teacher){
+
+    public void show(Teacher teacher) {
         System.out.println("课程名称： " + this.name);
         System.out.println("授课老师： " + teacher.getName());
 

@@ -23,13 +23,14 @@ public class ArrayListExam02 {
 
 
     }
-    public static ArrayList<Integer> getOdd(ArrayList<Integer> list){
+
+    public static ArrayList<Integer> getOdd(ArrayList<Integer> list) {
 
         ArrayList<Integer> arrayList = new ArrayList<>();
         for (int i = 0; i < list.size(); i++) {
-            if (list.get(i) % 2 != 0){
+            if (list.get(i) % 2 != 0) {
                 arrayList.add(list.get(i));
-            }else{
+            } else {
                 continue;
             }
         }

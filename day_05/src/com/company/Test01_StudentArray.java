@@ -13,17 +13,16 @@ public class Test01_StudentArray {
         StudentJavaBean[] students = new StudentJavaBean[4];
 
 
-
-        StudentJavaBean student1 = new StudentJavaBean("刘备",42);
-        StudentJavaBean student2 = new StudentJavaBean("关羽",40);
-        StudentJavaBean student3 = new StudentJavaBean("张飞",41);
-        StudentJavaBean student4 = new StudentJavaBean("赵云",35);
-        students [0] = student1;
-        students [1] = student2;
-        students [2] = student4;
-        students [3] = student4;
+        StudentJavaBean student1 = new StudentJavaBean("刘备", 42);
+        StudentJavaBean student2 = new StudentJavaBean("关羽", 40);
+        StudentJavaBean student3 = new StudentJavaBean("张飞", 41);
+        StudentJavaBean student4 = new StudentJavaBean("赵云", 35);
+        students[0] = student1;
+        students[1] = student2;
+        students[2] = student4;
+        students[3] = student4;
         for (int i = 0; i < 4; i++) {
-            System.out.println(students [i].getName() + students [i].getAge());
+            System.out.println(students[i].getName() + students[i].getAge());
         }
         /*
         for (int i = 0; i < students.length; i++) {
@@ -37,9 +36,6 @@ public class Test01_StudentArray {
 
         // java提供了一个ArrayList类 是大小可变的数组  存储在数组中的数据 我们一般叫它元素 可hi不断添加元素
         // 大小也可以不断增长
-
-
-
 
 
     }

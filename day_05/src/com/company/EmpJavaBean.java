@@ -15,40 +15,47 @@ public class EmpJavaBean {
 
     private int salary;
 
-    public EmpJavaBean(){
+    public EmpJavaBean() {
         System.out.println("EmpJavaBean无参构造方法");
     }
 
 
-    public EmpJavaBean(String name,int jobnum,String position,int salary){
+    public EmpJavaBean(String name, int jobnum, String position, int salary) {
         this.jobnum = jobnum;
         this.name = name;
         this.position = position;
         this.salary = salary;
     }
 
-    public int getJobnum(){
+    public int getJobnum() {
         return jobnum;
     }
-    public int getSalary(){
+
+    public int getSalary() {
         return salary;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
-    public String getPosition(){
+
+    public String getPosition() {
         return position;
     }
-    public void setName(String name){
+
+    public void setName(String name) {
         this.name = name;
     }
-    public void setJobnum(int jobnum){
+
+    public void setJobnum(int jobnum) {
         this.jobnum = jobnum;
     }
-    public void setPosition(String position){
+
+    public void setPosition(String position) {
         this.position = position;
     }
-    public void setSalary(int salary){
+
+    public void setSalary(int salary) {
         this.salary = salary;
     }
 

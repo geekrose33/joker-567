@@ -61,13 +61,14 @@ public class Role {
 
     // 添加攻击方法
 
-    public void attack(){
-        System.out.println("使用" + wp.getName() +" 造成了 " +wp.getHurt()+"伤害");
+    public void attack() {
+        System.out.println("使用" + wp.getName() + " 造成了 " + wp.getHurt() + "伤害");
     }
+
     //穿戴盔甲
-    public void wear(){
+    public void wear() {
         // 增加血量
         this.blood += ar.getProtact();
-        System.out.println("穿上"+ar.getName()+"  生命值增加了"+ ar.getProtact());
+        System.out.println("穿上" + ar.getName() + "  生命值增加了" + ar.getProtact());
     }
 }

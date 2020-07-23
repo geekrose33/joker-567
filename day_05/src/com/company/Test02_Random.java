@@ -17,17 +17,17 @@ public class Test02_Random {
         System.out.println("请输入您要猜测的数字（1~100）");
         Scanner scanner = new Scanner(System.in);
         int j = scanner.nextInt();
-        for (int k = 0;  ; k++) {
+        for (int k = 0; ; k++) {
 
-            if (i < j){
+            if (i < j) {
                 System.out.println("您猜大了 请重新输入");
                 j = scanner.nextInt();
                 continue;
-            }else if (i > j) {
+            } else if (i > j) {
                 System.out.println("您猜小了 请重新输入");
                 j = scanner.nextInt();
                 continue;
-            }else{
+            } else {
                 System.out.println("猜对了");
                 break;
             }

@@ -5,7 +5,7 @@ package com.company;
  * @date 2020-6-7 15:06
  */
 
-public class Dog extends Animal implements LiveAble,Pat{
+public class Dog extends Animal implements LiveAble, Pat {
     // 多实现的格式;
 //    class 类名 extends 父类名 implements 接口1,接口2---(){}
     // 必须重写接口中所有的抽象方法

@@ -40,6 +40,5 @@ public class DynamicTest2 {
         // dog.eat();
 
 
-
     }
 }

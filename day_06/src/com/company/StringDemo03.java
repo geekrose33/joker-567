@@ -24,7 +24,7 @@ public class StringDemo03 {
                 return true;
             }
             if (anObject instanceof StringDemo3) {
-                StringDemo3 anotherString = (StringDemo3)anObject;
+                StringDemo3 anotherString = (StringDemo3) anObject;
                 int n = value.length;
                 if (n == anotherString.value.length) {
                     char v1[] = value; //value 为类中 成员变量
@@ -42,10 +42,7 @@ public class StringDemo03 {
         }
 
 
-
     }
-
-
 
 
 }

@@ -6,7 +6,7 @@ package com.company;
  */
 
 public class D {
-    public void sameName(){
+    public void sameName() {
         System.out.println("DDDDD");
     }
 }

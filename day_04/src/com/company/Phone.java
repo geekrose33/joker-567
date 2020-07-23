@@ -11,10 +11,11 @@ public class Phone {
     int price;
     String color;
 
-    public void sendMessage(String name){
+    public void sendMessage(String name) {
         System.out.println("给" + name + "发短信");
     }
-    public void callSomebody(){
+
+    public void callSomebody() {
         System.out.println("打电话");
     }
 }

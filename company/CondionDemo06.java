@@ -48,16 +48,10 @@ public class CondionDemo06 {
 //        if (true) System.out.println("Nice to meet you.");
 
 
-
-
-
-
         //在控制台中接受参数
 
         // 多分支
 //        if(condition 1){}else if(condition2){}else if(condition3){}
-
-
 
 
         // 3. 循环结构 for while do while
@@ -132,7 +126,6 @@ public class CondionDemo06 {
 //        }else{
 //            System.out.println("最大值为"+num3);
 //        }
-
 
 
         // switch语句 勇于做固定值判断
@@ -278,13 +271,13 @@ public class CondionDemo06 {
         System.out.println("请输入小明右手纸牌数");
         int b = scanner.nextInt();
 
-        System.out.println("互换前小明手中纸牌左手为"+ a + "互换前小明手中纸牌右手为" + b);
+        System.out.println("互换前小明手中纸牌左手为" + a + "互换前小明手中纸牌右手为" + b);
         int c;
         c = a;
         a = b;
         b = c;
 
-        System.out.println("互换后小明手中纸牌左手为"+ a + "互换后小明手中纸牌右手为" + b);
+        System.out.println("互换后小明手中纸牌左手为" + a + "互换后小明手中纸牌右手为" + b);
 
         //（关系表达式）？表达式1：表达式2；
         // 先执行关系表达式，看其结果是true 还是 false

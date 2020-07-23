@@ -9,10 +9,11 @@ import java.util.Scanner;
 
 public class APIDemo1_Example03 {
     public static void main(String[] args) {
-      // 匿名对象作为返回值
+        // 匿名对象作为返回值
         System.out.println(getScanner());
     }
-    public static Scanner getScanner(){
+
+    public static Scanner getScanner() {
         // 普通方式Scanner的返回值
 /*
         Scanner scanner = new Scanner(System.in);

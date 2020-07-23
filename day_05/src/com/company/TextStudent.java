@@ -9,7 +9,7 @@ public class TextStudent {
     public static void main(String[] args) {
         Student student = new Student();
         System.out.println(student);
-        Student student1 = new Student("金豆豆",18);
+        Student student1 = new Student("金豆豆", 18);
         System.out.println(student1);
     }
 }

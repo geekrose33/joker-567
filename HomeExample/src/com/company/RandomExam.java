@@ -16,16 +16,16 @@ public class RandomExam {
         System.out.println("请输入您要猜测的数字 (100以内)");
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
-        while (true){
-            if (num < i){
+        while (true) {
+            if (num < i) {
                 System.out.println("输入的数字小了，请重新输入");
                 num = scanner.nextInt();
                 continue;
-            }else if (num > i){
+            } else if (num > i) {
                 System.out.println("输入的数字大了，请重新输入");
                 num = scanner.nextInt();
                 continue;
-            }else {
+            } else {
                 System.out.println("猜对了！");
                 break;
             }

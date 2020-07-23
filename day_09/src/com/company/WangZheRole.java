@@ -18,7 +18,7 @@ public class WangZheRole {
     }
 
     //  发动法术攻击
-    public void faShuSkillAttack(){
+    public void faShuSkillAttack() {
         System.out.println("开始发动法术攻击");
         faShuSkill.faShuAttack();
         System.out.println("技能释放完毕");

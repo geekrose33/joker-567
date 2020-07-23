@@ -5,7 +5,7 @@ public class TypeDemo05 {
 
         short s = 20;
         int ss = s + 1;
-        s = (short)(s + 1);
+        s = (short) (s + 1);
         System.out.println(ss);
         System.out.println(s);
 

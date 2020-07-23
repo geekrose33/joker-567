@@ -24,11 +24,11 @@ public class EvenNumTest {
 
     // 获取某集合中所有的偶数
     // 此时List<Integer> List 作为了getEvenNum()方法的参数
-    public static List<Integer> getEvenNum(List<Integer> list){
+    public static List<Integer> getEvenNum(List<Integer> list) {
         List<Integer> arrayList = new ArrayList<>();
         for (int i = 0; i < list.size(); i++) {
             Integer integer = list.get(i);
-            if (integer % 2 == 0){
+            if (integer % 2 == 0) {
                 arrayList.add(integer);
             }
 

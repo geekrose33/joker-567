@@ -13,8 +13,8 @@ public class TypeDemo04 {
         int a = 10;
         int b = 20;
         //通过输出语句输出变量a和b的和
-        System.out.println(a+b);
-        int c = a+b ;
+        System.out.println(a + b);
+        int c = a + b;
         System.out.println(c);
         System.out.println("*******************************");
 
@@ -23,7 +23,6 @@ public class TypeDemo04 {
         //定义cc接受aa bb的和
         int cc = aa + bb;
         System.out.println(cc);
-
 
 
         // 定义两个int类型的变量a和b, 分别赋 值为10, 20.
@@ -36,7 +35,7 @@ public class TypeDemo04 {
 
         // 强制类型转换 显示转换  大类型转换为小类型：
         double d = 30.5;
-        int dd = (int)d;
+        int dd = (int) d;
         System.out.println(dd);
         // 数据类型 变量名 = （强制转换类型）被转换的数值；
 
