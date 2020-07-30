@@ -6,4 +6,11 @@ package com.company.day15.lambda表达式;
  */
 
 public class Demo03 {
+    public static void main(String[] args) {
+
+    }
+
+    public static void invoke(Cook cook){
+        cook.makeFood();
+    }
 }
