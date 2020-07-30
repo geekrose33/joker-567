@@ -1,7 +1,5 @@
 package com.company.myredbag;
 
-import com.company.day12.day12.redbag.utils.OpenMode;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
@@ -21,7 +19,7 @@ public abstract class RedPacketFrame extends JFrame {
 
     private static final long serialVersionUID = 1L;
 
-    private static final String DIR = "D:\\new git_java\\day12_RedPackage\\pic";
+    private static final String DIR = "D:\\new git_java\\joker-567\\day12_RedPackage\\pic";
 
     private ArrayList<Integer> moneyList = null;
 
@@ -457,7 +455,7 @@ public abstract class RedPacketFrame extends JFrame {
      * openWay 红包的类型【普通红包、手气红包】
      */
 
-    private NormalMode openMode = null;
+    private OpenMode openMode = null;
 
     /**
      * 构造方法
@@ -476,7 +474,7 @@ public abstract class RedPacketFrame extends JFrame {
         this.ownerName = ownerName;
     }
 
-    public void setOpenWay(NormalMode openMdde) {
-        this.openMode = openMdde;
+    public void setOpenMode(OpenMode openMode) {
+        this.openMode = openMode;
     }
 }

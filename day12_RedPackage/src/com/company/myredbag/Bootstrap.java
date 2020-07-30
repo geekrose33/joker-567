@@ -11,9 +11,11 @@ public class Bootstrap {
         MyRedBag myRedBag = new MyRedBag("今天的运气红包");
         myRedBag.setOwnerName("Joker");
 
-        NormalMode normalMode = new NormalMode();
+//        NormalMode normalMode = new NormalMode();
+        RandomMode randomMode = new RandomMode();
+//        myRedBag.setOpenWay(normalMode);
+        myRedBag.setOpenMode(randomMode);
 
-        myRedBag.setOpenWay(normalMode);
 
     }
 }
