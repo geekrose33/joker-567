@@ -16,5 +16,13 @@ public class TestCalendar04 {
 
         Date date1 = new Date();
         System.out.println(date1);
+
+        Calendar instance = Calendar.getInstance();
+        System.out.println(instance.getTime());
+
+        // 获取从1970年到现在的毫秒值
+        System.out.println(System.currentTimeMillis());
+
+
     }
 }

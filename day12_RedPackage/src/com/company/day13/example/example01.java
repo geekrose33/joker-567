@@ -3,6 +3,7 @@ package com.company.day13.example;
 import javax.xml.crypto.Data;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Scanner;
 
@@ -14,6 +15,7 @@ import java.util.Scanner;
 public class example01 {
     public static void main(String[] args) throws ParseException {
         System.out.println(birday());
+
     }
     public static long birday() throws ParseException {
         System.out.println("请输入2020-01-01格式的生日日期");
@@ -23,7 +25,15 @@ public class example01 {
         Date date = simpleDateFormat.parse(s);
         // 求出距离生日日期的毫秒数
         long starttime = date.getTime();
-        return starttime/(3600*1000*24);
+        Calendar instance = Calendar.getInstance();
+        instance.clear();
+        instance.setTime(date);
+
+        long timeInMillis = instance.getTimeInMillis();
+        System.out.println(timeInMillis);
+
+        System.out.println(starttime);
+        return (starttime - timeInMillis)/(3600*1000*24);
 
 
     }
