@@ -1,6 +1,6 @@
-package com.company;
+package com.company.exam;
 
-import com.company.Person;
+import com.company.exam.Person;
 
 /**
  * @author Joker_Dong
