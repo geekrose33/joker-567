@@ -22,6 +22,12 @@ public class JDBCDemoSql {
             String sql1 = "update account set balance = balance - ? where id = ? ";
             String sql2 = "update account set balance = balance + ? where id = ? ";
             conn = JDBCutils.getConnection();
+
+
+            // 在此处开启事物
+            conn.setAutoCommit(false);
+
+
             pstmt1 = conn.prepareStatement(sql1);
             pstmt2 = conn.prepareStatement(sql2);
             // 设置参数
@@ -31,9 +37,26 @@ public class JDBCDemoSql {
             pstmt2.setInt(2,2);
 
             int count1 = pstmt1.executeUpdate();  // 返回影响的行数
+
+            // 手动制造异常
+            int i = 5/0;
+
             int count2 = pstmt2.executeUpdate();
             System.out.println("count1" + count1 + "count2" + count2);
-        }catch (SQLException e){
+
+            conn.commit();
+
+        }catch (Exception e){
+
+            // 事物进行回滚
+//            try {
+//                if (conn != null){
+//                    conn.rollback();
+//                }
+//            }catch (SQLException e1){
+//                e1.printStackTrace();
+//            }
+
             e.printStackTrace();
         }finally {
             JDBCutils.close(pstmt1,conn);

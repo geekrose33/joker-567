@@ -34,6 +34,9 @@ public class MyLogin {
         ResultSet resultSet = null;
         try {
             conn = JDBCutils.getConnection();
+
+
+
             String sql = "select * from user where username = ? and  password = ?";
             pstmt = conn.prepareStatement(sql);
             pstmt.setString(1,userName);
