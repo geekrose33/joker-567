@@ -26,8 +26,7 @@ public class MyLogin {
         }
     }
     public boolean user_pass(String userName, String passWord){
-        if (userName == null||passWord == null){
-            System.out.println("用户名或密码不可为空");
+        if (userName == null || passWord == null){
             return false;
         }
         Connection conn = null;
@@ -35,17 +34,18 @@ public class MyLogin {
         ResultSet resultSet = null;
         try {
             conn = JDBCutils.getConnection();
-            String sql = "select * from user where username = ? and password = ?";
+            String sql = "select * from user where username = ? and  password = ?";
             pstmt = conn.prepareStatement(sql);
             pstmt.setString(1,userName);
             pstmt.setString(2,passWord);
-            System.out.println(sql);
-           resultSet = pstmt.getResultSet();
-           if (resultSet.next()){
-               return true;
-           }else{
-               return false;
-           }
+
+            resultSet = pstmt.executeQuery();
+//            return resultSet.next();
+            if (resultSet.next()){
+                return true;
+            }else{
+                return false;
+            }
 
         }catch (SQLException e){
             e.printStackTrace();
@@ -53,8 +53,7 @@ public class MyLogin {
             JDBCutils.close(resultSet,pstmt,conn);
         }
 
-
-
         return false;
     }
+
 }
