@@ -2,10 +2,7 @@ package com.company.jdbc.jdbcLoginDemo;
 
 import com.company.jdbc.utils.JDBCutils;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.Scanner;
 
 /**
@@ -30,6 +27,38 @@ public class JDBCLoginDemp {
             System.out.println("用户名或密码错误");
         }
     }
+//    public boolean login(String userName, String passWord){
+//        // 判断是否为空
+//        if (userName == null || passWord == null){
+//            return false;
+//        }
+//
+//        Connection conn = null;
+//        Statement stmt = null;
+//        ResultSet resultSet = null;
+//        try {
+//            conn = JDBCutils.getConnection();
+//            // sql
+//            String sql = "select * from user where username = '"+userName+"'and password = '" + passWord + "'";
+//            StringBuilder sql2 =  new StringBuilder("select * from user where username = '")
+//                    .append(userName).append("' and password= '").append(passWord).append("'");
+//            // StringBuilder 可变字符串
+//            System.out.println(sql);
+//            System.out.println(sql2);
+//
+//            stmt = conn.createStatement();
+//            resultSet = stmt.executeQuery(sql);
+//            return resultSet.next();
+//
+//        }catch (SQLException e){
+//            e.printStackTrace();
+//        }finally {
+//            JDBCutils.close(resultSet,stmt,conn);
+//        }
+//
+//        return false;
+//
+//    }
     public boolean login(String userName, String passWord){
         // 判断是否为空
         if (userName == null || passWord == null){
@@ -37,25 +66,32 @@ public class JDBCLoginDemp {
         }
 
         Connection conn = null;
-        Statement stmt = null;
+        PreparedStatement pstmt = null;
         ResultSet resultSet = null;
         try {
             conn = JDBCutils.getConnection();
             // sql
-            String sql = "select * from user where username = '"+userName+"'and password = '" + passWord + "'";
-            StringBuilder sql2 =  new StringBuilder("select * from user where username = '").append(userName).append("' and password= '").append(passWord).append("'");
-            // StringBuilder 可变字符串
+            String sql = "select * from user where username = ? and password = ? ";
+            // 先获取执行sql的对象 PreparedStatement
+            pstmt = conn.prepareStatement(sql);
+//            stmt = conn.createStatement();
+            // 给？赋值
+            pstmt.setString(1,userName);
+            pstmt.setString(2,passWord);
             System.out.println(sql);
-            System.out.println(sql2);
-
-            stmt = conn.createStatement();
-            resultSet = stmt.executeQuery(sql);
-            return resultSet.next();
+            //执行查询 不需要传递sql
+            resultSet = pstmt.executeQuery();
+//            return resultSet.next(); // 如果有下一行 返回true
+            if (resultSet.next()){
+                return true;
+            }else {
+                return false;
+            }
 
         }catch (SQLException e){
             e.printStackTrace();
         }finally {
-            JDBCutils.close(resultSet,stmt,conn);
+            JDBCutils.close(resultSet,pstmt,conn);
         }
 
         return false;
