@@ -27,7 +27,7 @@ public class TestCalendar03 {
         int dayChange = calendar.get(Calendar.DAY_OF_MONTH); // 再次赋值并输出
         System.out.println(dayChange);
 
-//        calendar.add(Calendar.YEAR,-3);
+//        calendar.add(CalendarTest.YEAR,-3);
 //        System.out.println(day);
 
     }
